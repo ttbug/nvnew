@@ -473,12 +473,12 @@ function config.nvim_bufferline()
 			max_name_length = 14,
 			max_prefix_length = 13,
 			tab_size = 20,
-			show_buffer_close_icons = true,
+			show_buffer_close_icons = false,
 			show_buffer_icons = true,
 			show_tab_indicators = true,
 			diagnostics = "nvim_lsp",
 			always_show_bufferline = true,
-			separator_style = "thin",
+			separator_style = "slant",
 			offsets = {
 				{
 					filetype = "NvimTree",
